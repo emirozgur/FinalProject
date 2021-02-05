@@ -13,7 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Northwind;Trusted_Connection=true");
         }
-        public DbSet<Product> Products{ get; set; }
+        public DbSet<Product> Products{ get; set; } //prop
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
     }
