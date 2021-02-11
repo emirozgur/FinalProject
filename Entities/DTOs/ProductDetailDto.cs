@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Entities.DTOs
 {
+    //Data transformation object
+
     public class ProductDetailDto : IDto
     {
         public int ProductId { get; set; }
