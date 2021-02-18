@@ -21,5 +21,7 @@ namespace Business.Abstract
 
         //Void olan metodda dönüş olmadığı için IResult
         IResult Add(Product product);
+
+        // RESTFUL --> HTTP --> 
     }
 }
