@@ -40,7 +40,7 @@ namespace ConsoleUI
             {
                 Console.WriteLine(result.Message);
             }
-            
+            Console.ReadLine();
         }
     }
 }
